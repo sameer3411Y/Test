@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "oKhC9IPIeFE=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\sksam\\.repo\\GitHub Test\\Test\\Test.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\sksam\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.12\\microsoft.aspnetcore.openapi.10.0.12.nupkg.sha512",
+    "C:\\Users\\sksam\\.nuget\\packages\\microsoft.openapi\\2.12.0\\microsoft.openapi.2.12.0.nupkg.sha512"
+  ],
+  "logs": []
+}
