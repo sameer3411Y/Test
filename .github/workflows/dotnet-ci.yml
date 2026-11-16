@@ -18,8 +18,11 @@ jobs:
         with:
           dotnet-version: '8.0.x'
 
+      - name: Restore Dependencies
+        run: dotnet restore Test.Tests/Test.Tests.csproj
+
       - name: Build Application
-        run: dotnet build
+        run: dotnet build Test.Tests/Test.Tests.csproj --configuration Release --no-restore
 
       - name: Run xUnit Test Cases
-        run: dotnet test --no-build
+        run: dotnet test Test.Tests/Test.Tests.csproj --configuration Release --no-build
